@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://kit.fontawesome.com/b40cd8d10d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="js/circletype.min.js"></script>
+    <script src="js/mobilemenu.js"></script>
+</head>
+<body>
+    <nav class="main-menu">
+        <ul>
+            <li class="icon toggle">
+                <a href="#"><i class="fas fa-bars"></i></a></li>
+            <li class="item"><a href="#header">About</a></li>
+            <li class="item"><a href="#projects">Projects</a></li>
+            <li class="item"><a href="#skills">Skills</a></li>
+            <li class="item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="content">
+        <section class="about" id="header">
+            <div class="about--blurb">
+                <h1>My name is Maira Soomro. I'm a software developer</h1>
+                <p>Feel free to contact me if you have any comments, questions or job offers</p>
+                <ul class="contact-icons">
+                    <li><a href="https://github.com/masoomro16"><i class="fab fa-github fa-3x"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/mairasoomro/"><i class="fab fa-linkedin fa-3x"></i></a></li>
+                    <li><a href="mailto:masoomro16@gmail.com"><i class="fas fa-envelope fa-3x"></i></a></li>
+                </ul>
+            </div>
+            <div class="about--skills">
+                <div class="rotating-circle">
+                    <h3 class="circle" id="test1">
+                        HTML &#183; CSS &#183; REACT &#183; 
+                        VUEJS &#183; NODE.JS &#183; WORDPRESS &#183; 
+                        C++/C &#183; C# &#183; JAVASCRIPT &#183; 
+                        .NET &#183; PHOTOSHOP &#183; ILLUSTRATOR &#183; 
+                        <span class="cirlce--large-screen">HTML &#183; CSS &#183; REACT &#183; 
+                        VUEJS &#183; NODE.JS &#183;  C++/C &#183;</span>
+                    </h3>
+                    <!-- <img src="/assets/img/av.svg"> -->
+                </div>
+            </div>
+            <div class="about--img">
+                <img src="assets/img/photo-of-me.jpg"/>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <h2 class="heading">Projects</h2>
+            <div class="projects--list">
+                <div class="card">
+                    <img src="./assets/img/Design3.png" />
+                    <div class="card-info">
+                        <h4 class="card-info-title">Card Title</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi repellat 
+                            numquam nisi architecto iusto. Veniam consequuntur voluptatum distinctio 
+                            corrupti dolore minus reiciendis exercitationem nam, quibusdam nobis, 
+                            tempora expedita repellat ratione?</p>
+                    </div>
+                    <ul class="card-links">
+                        <li><a href="#">View</a></li>
+                        <li><a href="#">Github</a></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/Design4.png" />
+                    <div class="card-info">
+                        <h4>Card Title</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi repellat 
+                            numquam nisi architecto iusto. Veniam consequuntur voluptatum distinctio 
+                            corrupti dolore minus reiciendis exercitationem nam, quibusdam nobis, 
+                            tempora expedita repellat ratione?</p>
+                    </div>
+                    <ul class="card-links">
+                        <li><a href="#">View</a></li>
+                        <li><a href="#">Github</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2 class="heading">What I Can Do</h2>
+            <div class="skills-set">
+                <h2>Web Development</h2>
+                <ul>
+                    <li><i class="fab fa-html5 fa-4x"></i><span class="tooltip">HTML5</span></li>
+                    <li><i class="fab fa-css3-alt fa-4x"></i><span class="tooltip">CSS3</span></li>
+                    <li><i class="fab fa-node-js fa-4x"></i><span class="tooltip">Node.js</span></li>
+                    <li><i class="fab fa-vuejs fa-4x"></i><span class="tooltip">Vue.js</span></li>
+                    <li><i class="fab fa-react fa-4x"></i><span class="tooltip">React</span></li>
+                    <li><i class="fab fa-wordpress fa-4x"></i><span class="tooltip">Wordpress</span></li>
+                </ul>
+            </div>
+            <div class="skills-set">
+                <h2>Languages</h2>
+                <ul>
+                    <li><i class="fab fa-js-square fa-4x"></i><span class="tooltip">Javascript</span></li>
+                    <li><i class="fab fa-php fa-4x"></i><span class="tooltip">PHP</span></li>
+                    <li><h2>C++/C</h2></li>
+                    <li><h2>C#</h2></li>
+                </ul>
+            </div>
+            <div class="skills-set">
+                <h2>Other</h2>
+                <ul>
+                    <li><i class="fab fa-git-alt fa-4x"></i><span class="tooltip">Git</span></li>
+                    <li><h2 class="photshop">Ps</h2><span class="tooltip">Photoshop</span></li>
+                    <li><h2>Ai</h2></i><span class="tooltip">Illustrator</span></li>
+                    <li><h2>Xd</h2></i><span class="tooltip">Adobe XD</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <ul class="contact-icons">
+                <li><a href="#"><i class="fab fa-github fa-2x"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/mairasoomro/"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                <li><a href="mailto:masoomro16@gmail.com"><i class="fas fa-envelope fa-2x"></i></a></li>
+            </ul>
+            <div class="copyright-notice">
+                <p class="tag">tralala</p>
+            </div>
+        </footer>
+    </section>
+    <script>
+        new CircleType(document.getElementById('test1'))
+            .radius(100); 
+    </script>
+</body>
+
+</html>
