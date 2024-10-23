@@ -257,7 +257,7 @@ a:visited {
     }
 }
 
-@-keyframes spin1 {
+@keyframes spin1 {
     0% {
         transform: rotate(0deg);
     }
@@ -295,13 +295,17 @@ a:visited {
         margin-right: 30px;
         border: 2px solid $secondary;
         box-shadow: 8px 8px 0px 0px $secondary;
+        display: flex;
+        flex-direction: column;
 
         img {
-            width: 100%;
+            height: 100%;
+            max-height: 250px;
         }
 
         .card-info {
             padding: 20px 10px;
+            flex: 1;
 
             h4 {
                 font-size: 1.5rem;
@@ -321,6 +325,7 @@ a:visited {
         .card-links {
             display: flex;
             justify-content: space-evenly;
+            max-height: 38px;
 
             li {
                 display: inline-block;
@@ -369,6 +374,14 @@ a:visited {
     border-bottom: 2px solid $secondary;
     justify-content: space-between;
     align-items: baseline;
+
+    ul {
+        li {
+            i {
+                margin-bottom: 5px;
+            }
+        }
+    }
 
     .tooltip {
         display: block;
